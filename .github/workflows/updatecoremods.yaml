@@ -27,7 +27,7 @@ jobs:
       run: |
         cp CoreModUpdater/coreMods.json site/tools/Beat_Saber/coreMods.json
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v4
+      uses: peter-evans/create-pull-request@v6
       with:
         path: site
         title: Update Core Mods
